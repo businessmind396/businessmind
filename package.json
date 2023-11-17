@@ -1,0 +1,26 @@
+{
+  "name": "businessmind-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Business Mind",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "your-build-command-here"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+    // Add other dependencies as needed
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-git-repository-url"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "private": true
+}
