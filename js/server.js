@@ -1,5 +1,5 @@
 const express = require('express');
-const axios = require('axios'); // Add this line
+const axios = require('axios');
 require('dotenv').config();
 
 const app = express();
