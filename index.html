@@ -1,41 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Charset and Viewport Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Title Tag -->
-    <title>Business Mind - Portfolio</title>
-
-    <!-- Description and Keywords Meta Tags for SEO -->
-    <meta name="description" content="Portfolio of Business Mind, a Web Developer showcasing skills and projects.">
-    <meta name="keywords" content="web development, portfolio, business mind, HTML, CSS, JavaScript">
-
-    <!-- Author Meta Tag -->
-    <meta name="author" content="Business Mind">
-
-    <!-- Favicon Link -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <!-- External Stylesheet Link -->
     <link rel="stylesheet" href="./css/styles.css">
+    <title>Business Mind - Portfolio</title>
 </head>
 <body>
 
-    <!-- Header Section -->
     <header>
         <h1>Business Mind</h1>
         <p>Web Developer</p>
     </header>
 
-    <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
         <p>Write a brief introduction about yourself and your skills.</p>
     </section>
 
-    <!-- Portfolio Section -->
     <section id="portfolio">
         <h2>Portfolio</h2>
         <!-- Add your projects here -->
@@ -54,14 +36,12 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
         <p>Use the form below or email me at <a href="mailto:businessmind396@gmail.com">businessmind396@gmail.com</a>.</p>
 
         <!-- Contact Form -->
-        <form action="mailto:businessmind396@gmail.com" method="post" enctype="text/plain">
-            <!-- Form Fields -->
+        <form id="contactForm" action="https://your-backend-url/submit-form" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -71,15 +51,16 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
 
-            <!-- Add more form fields as needed -->
-
-            <!-- Submit Button -->
             <input type="submit" value="Send">
         </form>
 
         <!-- Discord Widget -->
         <iframe src="https://discord.com/widget?id=1171456980003602502&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
     </section>
+
+    <script>
+        // Optional: Add JavaScript for form validation or other client-side interactions
+    </script>
 
 </body>
 </html>
