@@ -18,11 +18,11 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Install Axios
-        run: npm install axios
-
       - name: Install Dependencies
         run: npm install
+
+      - name: Install Axios
+        run: npm install axios
 
       - name: Build
         run: npm run build
