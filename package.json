@@ -24,3 +24,6 @@
   "license": "MIT",
   "private": true
 }
+"devDependencies": {
+  "axios": ">=1.6.0"
+}
